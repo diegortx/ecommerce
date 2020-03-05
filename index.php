@@ -31,6 +31,49 @@ $app->get('/admin', function() {
 
 });
 
+
+$app->get('/admin', function() {
+
+	User::verifyLogin();
+	
+	$page = new PageAdmin();
+
+	$page->setTpl('index');
+
+});
+
+$app->get('/admin/estoque/bloco1', function() {
+
+	User::verifyLogin();
+
+	$page = new PageAdmin();
+
+	$page ->setTpl ("bloco1");
+
+});
+
+$app->get('/admin/inventaryControl', function() {
+
+	User::verifyLogin();
+
+	$page = new PageAdmin();
+
+	$page ->setTpl ("inventaryControl");
+
+});
+
+$app->get('/admin/estoque/bloco2', function() {
+
+	User::verifyLogin();
+	
+	$page = new PageAdmin();
+
+	$page->setTpl('bloco2');
+
+});
+
+
+
 $app->get('/admin/login', function() {
 	
 	$page = new PageAdmin([

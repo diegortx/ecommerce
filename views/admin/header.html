@@ -178,7 +178,7 @@ desired effect
               <!-- The user image in the navbar-->
               <img src="/res/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">Diego H Nogueira</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -186,7 +186,7 @@ desired effect
                 <img src="/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
+                  Diego H Nogueira - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -236,9 +236,9 @@ desired effect
           <img src="/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>Diego H Nogueira</p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <a href="/admin"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
 
@@ -256,19 +256,19 @@ desired effect
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
-        <li class="header">HEADER</li>
+        <li class="header">Menu</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="/admin/users"><i class="fa fa-users"></i> <span>Usuarios</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Informações</span></a></li>
+        <li><a href="/admin/inventaryControl"><i class="fa fa-opencart"></i> <span>Controlar estoque</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Estoque Blocos</span>
+          <a href="#"><i class="fa fa-book"></i> <span>Estoque Blocos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Tamanho 1</a></li>
-            <li><a href="#">Tamanho 2</a></li>
+            <li><a href="/admin/estoque/bloco1">Tamanho 1</a></li>
+            <li><a href="/admin/estoque/bloco2">Tamanho 2</a></li>
           </ul>
         </li>
       </ul>
