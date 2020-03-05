@@ -6,7 +6,7 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2020 <a target="_ref" href="https://www.facebook.com/dhnogueira08">DIEGO H NOGUEIRA</a>.</strong> Todos os direitos reservados.
   </footer>
 
   <!-- Control Sidebar -->
